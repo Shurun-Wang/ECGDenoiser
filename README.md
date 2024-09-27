@@ -1,5 +1,5 @@
 # ECGDenoiser
-PyTorch Source code for removing noise signals from corrupted ECG signals.
+PyTorch Source code for removing noises from corrupted ECG signals.
 
 We will release the code when the article is accepted. You can also find other open-sourced biomedical signal analysis projects in my [academic](https://shurun-wang.github.io/) page. :relaxed: :relaxed: :relaxed:
 
