@@ -23,10 +23,7 @@ We will release the code when the article is accepted. You can also find other o
 
 ## Data Preparation
 
- - We have provided the noise signals and clean ECG signals in
-    `Data/`
-
- - You can download the raw data (QT Database and the MIT-BIH Noise Stress Test Database) from Physionet
+ - You can download the raw data (QT Database, LUDB and the MIT-BIH Noise Stress Test Database) from Physionet
 
 
 ## How to run this project
@@ -37,7 +34,6 @@ We will release the code when the article is accepted. You can also find other o
 3. <span style="color: cyan;">args.mode</span> is the core parameter to control the progress.
    - <span style="color: orange;">training</span>: Train the proposed CAUNet and save the trained model.
    - <span style="color: orange;">test</span>: Add the specific noise to the clean ECG, load the model parameter, and test the model. 
-   - <span style="color: orange;">inference</span>: This mode is used to draw the ECG denoising figure for different methods.
 4. <span style="color: cyan;">args.base_dim</span> and <span style="color: cyan;">args.multi_dim</span> are the construction parameters of CAUNet.
 5. <span style="color: cyan;">args.par</span> is the loss factor of the combined loss function.
 6. <span style="color: cyan;">args.gpu</span>: You can select 'cuda:0', 'mps', 'cpu' for different operation systems
